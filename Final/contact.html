@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+  </script>
+ <link rel="stylesheet" href="styles.css">
+<style>
+ 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:  #ffd480;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+
+</head>
+<body>
+  <nav>
+    <a class="logo" href="home.html">
+        <img src="https://via.placeholder.com/60" alt="">
+    </a>
+
+    <ul class="nav-list">
+
+        <li>
+            <a href="home.html">Home</a>
+        </li>
+
+        <li>
+            <a href="about.html">About</a>
+        </li>
+
+        <li>
+            <a href="contact.html">Contact</a>
+        </li>
+
+        <li>
+            <a href="signup.html">Sign up</a>
+        </li>
+         <li>
+            <a href="subscribe.html">Newsletter</a>
+        </li>
+
+    </ul>
+</nav>
+
+<h2>GET IN TOUCH</h2>
+<p>when you need any warehouse needs we have got you covered</p>
+
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>Swing by for a cup of coffee, or leave us a message:</p>
+
+<p>
+Importance of Warehousing In the Development of Trade and Commerce:
+Warehousing or storage refers to the holding and preservation of goods until they are dispatched to the consumers. Generally, there is a time gap between the production and consumption of products. By bridging this gap, storage creates time utility.
+</p>
+
+<p>
+There is need for storing the goods so as to make them available to buyers as and when required. Some amount of goods is stored at every stage in the marketing process. Proper and adequate arrangements to retail the goods in perfect condition are essential for success in marketing. Storage enables a firm to carry on production in anticipation of demand in future.
+</p>
+
+<p>
+  A warehouse is a place used for the storage or accumulation of goods. It may also be defined as an establishment that assumes responsibility for the safe custody of goods. Warehouses enable the businessmen to carry on production throughout the year and to sell their products, whenever there is adequate demand.
+</p>
+
+<p>
+Need for warehouse arises also because some goods are produced only in a particular season but are demanded throughout the year. Similarly certain products are produced throughout the year but demanded only during a particular season. Warehousing facilitates production and distribution on a large scale.
+</p>
+
+  </div>
+
+    <div class="column">
+      <form class="center" action="/action_page.php">
+
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="country">Country</label>
+        <select id="country" name="country">
+
+          <option value="Kenya">Kenya</option>
+          <option value="Uganda">Uganda</option>
+          <option value="Tanzania">Tanzania</option>
+           <option value="Rwanda">Rwanda</option>
+            <option value="Burundi">Burundi</option>
+             <option value="DR congo">DR congo</option>
+
+        </select>
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write back to us.." 
+        style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+
+      </form>
+    </div>
+  </div>
+</div>
+
+<footer>
+    <div class="container">
+        <div>
+            <h3>GET IN TOUCH</h3>
+
+            <p>Otinez Capital Ventures</p>
+            <p>Central Business Center</p>
+            <p>Nairobi, Kenya</p>
+           
+            <p>Email: otinez@capitalventures.co.ke</p>
+        </div>
+        <div>
+            <h3>USEFUL INFORMATION</h3>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <div>
+
+        </div>
+
+    </div>
+</footer>
+
+</body>
+</html>
